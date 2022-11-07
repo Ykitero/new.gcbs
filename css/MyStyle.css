@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+a{
+    color: black; !important
+}
+
+.plashka{
+    border: 0;
+    background-color: rgb(27, 189, 54);
+    width: 100%;
+    height: 100px;
+    margin-top:  50px;
+    margin-bottom: 50px;
+}
+
+.nav{
+    background-color: rgb(218, 209, 209);
+    width: 100%;
+    height: 70px;
+    position: relative;
+    justify-content: center;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.orderpay {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: red;
+    text-decoration: none;
+    padding: 4px 10px;
+    background: #f0f0f0;
+    border: 1px solid red;
+    border-radius: 25px;
+}
+
+.myslider{
+    display: flex;
+    justify-content: center;
+    width: 100%; !important
+}
+
+.books{
+    margin-top: 50px;
+}
+
+.mycards{
+    margin-top: 50px;
+}
+
+/*.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }*/
+
+  .mybody{
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+
+  .mybody-lite{
+    /*margin-left: 50px;*/
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .my-class-book{
+      width: 130px;
+      height: auto;
+      padding: -5px;
+      margin: -5px;
+  }
+
+  .slider-top{
+      /*width: 800px;
+      height: 151px;*/
+  }
+
+  .sudo-top{
+      /*width: auto;
+      height: 100px;*/
+      margin-top: 15px;
+  }
+
+  .social{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 50px;
+  }
+
+  .social-pic{
+      width: 50px;
+      height: 50px;
+  }
+
+  .social-pic-center{
+      align-items: center;
+      padding-top: 10px;
+  }
+
+  .footer-pic{
+    width: 50px;
+    height: auto;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  .mynews{
+      display: flex;
+  }
+
+  .news{
+      background-color: rgb(223, 221, 221);
+      padding-top: 0.02px;
+  }
+
+  .blok-news{
+    background-color: rgb(223, 221, 221);
+    width: 100%;
+    height: 5px;
+}
+
+.pic-news{
+    height: 50px;
+    width: auto;
+}
+
+.card-img-top {
+    max-width: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.errors {
+    text-align: center;
+    margin-top:  70px;
+    align-items: center;
+    align-content: center;
+}
+
+.errors-pic {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

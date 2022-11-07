@@ -1,0 +1,52 @@
+* {
+margin:0; 
+}
+
+body {
+ height: 100%;
+ min-width: 900px;
+ font-size: 38px;
+ font-family: Arial, sans-serif;
+ background: #DCDCDC;
+}
+
+html {
+ position: relative;
+ min-height: 100%;
+}
+
+#header {
+	height: 100px;
+	background: #F5DEB3;
+	padding-top: 8px;
+}
+
+#content {
+	padding-top: 20px;
+	padding-bottom: 100px;
+
+}
+
+#footer {
+	height: 50px;
+	width: 100%;
+	padding-top: 10px;
+	background: #00BFFF;
+	position: absolute;
+	bottom: 0;
+}
+
+#header .inh {
+	margin: auto;
+	width: 900px;
+}
+
+#content .inc {
+	margin: auto;
+	width: 900px;
+
+}
+#footer .inf {
+	margin: auto;
+	width: 900px;
+}
